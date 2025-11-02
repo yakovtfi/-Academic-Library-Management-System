@@ -7,7 +7,7 @@ class SystemAdmin:
 
     @classmethod
     def report_stats(cls) -> None:
-        from library import Library
+        from models1.library import Library
         print("\n_____ System Statistics______")
         print(f"Total Transactions: {cls.total_transactions}")
         print(f"Max Borrow Days: {Library.max_borrow_days}")

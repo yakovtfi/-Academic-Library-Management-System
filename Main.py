@@ -1,7 +1,7 @@
-from book import Book
-from systemAdmin import SystemAdmin
-from user import User
-from library import Library
+from models1.book import Book
+from models1.systemAdmin import SystemAdmin
+from models1.user import User
+from models1.library import Library
 
 
 def main():

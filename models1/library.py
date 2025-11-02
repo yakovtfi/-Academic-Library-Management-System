@@ -1,7 +1,7 @@
-from user import User
-from book import Book
-from logger import Logger
-from systemAdmin import SystemAdmin
+from models1.user import User
+from models1.book import Book
+from models1.logger import Logger
+from models1.systemAdmin import SystemAdmin
 
 class Library:
     max_borrow_days: int = 14
